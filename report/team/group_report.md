@@ -24,9 +24,9 @@
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
+| 7 | Hải | Khi gặp ùn tắc lúc đang đi bằng phương tiện cá nhân, tôi muốn so sánh đi tiếp với đổi tuyến để chọn đường phù hợp trước khi qua điểm rẽ. | Người lái xe máy hoặc ô tô cá nhân | Mất thời gian so sánh giờ đến dự kiến và kiểm tra tuyến thay thế có phù hợp với phương tiện hay không. |  |
+| 8 | Hải | Khi lỡ chuyến xe buýt vào giờ cao điểm, tôi muốn biết phải chờ bao lâu và có cách đi nào khác để chọn phương án phù hợp với giờ cần đến. | Hành khách vừa lỡ chuyến xe buýt | Phải tự tính thời gian đi bộ, chờ xe, ngồi xe và chuyển tuyến để biết phương án nào còn kịp bắt và đến đích lúc nào. |  |
+| 9 | Hải | Khi đang xếp hàng trước một nút giao ùn tắc, tôi muốn ước lượng còn bao lâu mới qua được để cập nhật giờ đến và báo trước nếu có thể trễ. | Người đi xe máy hoặc ô tô đang xếp hàng trước nút giao | Khó ước lượng thời gian còn lại vì không nhìn hết hàng xe và mỗi lượt xe tiến được một đoạn khác nhau. |  |
 | 10 | | | | | |
 | 11 | | | | | |
 | 12 | | | | | |
