@@ -76,8 +76,6 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 **Phạm vi của nhóm G2:** Hành khách vừa lỡ chuyến xe buýt vào giờ cao điểm và cần quyết định nên chờ chuyến kế tiếp hay đổi lộ trình để kịp giờ đến.
 
-> **Ghi chú về dữ liệu:** P1–P3 là các kịch bản phỏng vấn mô phỏng. Nhân vật, lời thoại và số phút được giả định để minh họa cách ghi nhận và phân tích. Phần research dựa trên tài liệu công khai. Khi có phỏng vấn thực tế, thay các snapshot mô phỏng, bảng tổng hợp và kết luận bằng ghi nhận thật.
-
 ### 3.1. Assumption Map
 
 Điểm bằng chứng phản ánh thông tin có trước phỏng vấn. Điểm 1 là chưa có dữ liệu trực tiếp, điểm 2 là có một ghi nhận riêng lẻ hoặc thông tin gián tiếp, điểm 3 là có tài liệu về tính năng liên quan nhưng vẫn cần thử trong tình huống cụ thể.
@@ -150,57 +148,6 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | Google Maps | [Tài liệu tra giờ tàu và xe buýt](https://support.google.com/maps/answer/6142130?hl=en) | Tìm đường bằng phương tiện công cộng và tra giờ khởi hành. | Cho xem các lựa chọn tuyến và giờ đi. Một số điểm dừng có thông tin cập nhật theo thời gian thực. | Tùy điểm dừng, giờ hiển thị có thể là giờ theo lịch. Cần kiểm tra nguồn giờ khi đánh giá lượt chuyển tuyến sát giờ. | Phân biệt **giờ theo lịch** và **giờ cập nhật** khi so sánh phương án. |
 | BusMap Hà Nội | [Trang ứng dụng trên Google Play](https://play.google.com/store/apps/details?hl=vi&id=com.t7.busmaphn) | Tra tuyến, tìm hành trình kết hợp xe buýt và metro, xem giờ chờ và vị trí xe. | Tập hợp nhiều thông tin phục vụ hành trình công cộng trong cùng một ứng dụng. | Cần thử tại điểm dừng và khung giờ đã chọn để biết dữ liệu có đủ và mất bao lâu để so hai phương án. | Dùng ứng dụng quen thuộc làm mốc so sánh và đo cả thời gian tra cứu lẫn thời gian chốt. |
 | VinBus trên Xanh SM | [Thông báo tính năng của VinBus](https://vinbus.vn/vi/thong-bao-ra-mat-dich-vu-vinbus-tren-ung-dung-xanh-sm) | Tra lịch, tìm trạm, chỉ đường tới trạm và theo dõi xe VinBus. | Có thể xem thông tin chuyến VinBus và đường đi tới điểm đón. | Cần kiểm tra khả năng đối chiếu với tuyến do đơn vị khác vận hành trong cùng tình huống. | So **giờ hành khách có thể tới trạm** với **giờ xe dự kiến tới trạm** trước khi đánh dấu phương án là khả thi. |
-
----
-
-
-## 3. Kiểm chứng + research giải pháp đã có (CP4)
-
-### 3.1. Assumption Map
-
-| # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
-|---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-
-*Điền 4–6 giả định; xóa dòng thừa.*
-
-Giả định nhóm kiểm chứng trong buổi này:
-
-### 3.2. Kiểm chứng
-
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
-
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
-
-| Trường | Nội dung |
-|---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
-
-Tổng hợp:
-
-| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
-|---|---:|---|---|
-| | | | |
-
-**Nhóm đã sửa problem thế nào sau kiểm chứng:**
-
-### 3.3. Research giải pháp đã có
-
-| Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
-|---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
 
 ---
 
