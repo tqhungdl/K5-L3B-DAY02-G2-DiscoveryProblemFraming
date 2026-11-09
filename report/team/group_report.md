@@ -309,7 +309,9 @@ Vì sao:
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+- Chưa có baseline thực sự của người dùng.
+- Cần xây dựng metrics kỹ càng để đo lường hiệu quả thực tế.
+- Xem xét tích hợp chatbot trong tương lai.
 
 ## 10. Tài liệu tham khảo
 
