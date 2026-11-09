@@ -74,6 +74,88 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ## 3. Kiểm chứng + research giải pháp đã có (CP4)
 
+**Phạm vi của nhóm G2:** Hành khách vừa lỡ chuyến xe buýt vào giờ cao điểm và cần quyết định nên chờ chuyến kế tiếp hay đổi lộ trình để kịp giờ đến.
+
+> **Ghi chú về dữ liệu:** P1–P3 là các kịch bản phỏng vấn mô phỏng. Nhân vật, lời thoại và số phút được giả định để minh họa cách ghi nhận và phân tích. Phần research dựa trên tài liệu công khai. Khi có phỏng vấn thực tế, thay các snapshot mô phỏng, bảng tổng hợp và kết luận bằng ghi nhận thật.
+
+### 3.1. Assumption Map
+
+Điểm bằng chứng phản ánh thông tin có trước phỏng vấn. Điểm 1 là chưa có dữ liệu trực tiếp, điểm 2 là có một ghi nhận riêng lẻ hoặc thông tin gián tiếp, điểm 3 là có tài liệu về tính năng liên quan nhưng vẫn cần thử trong tình huống cụ thể.
+
+| # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
+|---:|---|---|---:|---:|---|
+| 1 | Khi lỡ xe buýt và có giờ cần đến, hành khách thực sự cân nhắc giữa chờ chuyến sau và đổi lộ trình. | Value | 5 | 2 | Có |
+| 2 | Phần tốn thời gian nhất là so sánh giờ đến đích của các phương án vì phải tính cả đi bộ, chờ xe và chuyển tuyến. | Usability | 5 | 1 | Có |
+| 3 | Hành khách có thể chọn nhanh bằng ứng dụng quen thuộc nếu thông tin chuyến sau rõ và vẫn kịp giờ đến đích. | Value | 5 | 2 | Có |
+| 4 | Tại điểm dừng đang xét, có thể tra đủ giờ xe, thời gian đi bộ và thông tin chuyển tuyến để biết phương án nào còn kịp bắt. | Feasibility | 5 | 3 | Có |
+| 5 | Hành khách có thể bỏ phương án dự kiến đến sớm hơn nếu phải đi bộ quá xa hoặc đổi tuyến quá nhiều. | Usability | 4 | 1 | Sau |
+| 6 | Nhóm có thể lặp lại việc tra cứu bằng các nguồn hiện có với công sức cập nhật chấp nhận được trong phạm vi thử nghiệm. | Viability | 3 | 1 | Sau |
+
+**Giả định nhóm kiểm chứng trong buổi này:** Ba kịch bản mô phỏng tập trung vào giả định **1, 2 và 3**. Giả định **4** cần kiểm tra riêng bằng cách mở ứng dụng tại điểm dừng, đúng chiều đi và đúng khung giờ thử nghiệm.
+
+### 3.2. Kiểm chứng
+
+**Cách đã dùng trong bản minh họa:** Phỏng vấn bán cấu trúc mô phỏng. Thời gian ra quyết định tính từ lúc hành khách nhận ra đã lỡ chuyến đến lúc chốt cách đi tiếp. Thời gian đứng chờ xe được ghi riêng.
+
+#### Interview P1 
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | P1 — Sinh viên, thường đi xe buýt đến trường. |
+| Câu nói đáng nhớ nhất (lời thoại mô phỏng) | “Em thấy có tuyến khác, nhưng phải cộng thêm thời gian đi bộ và đổi xe mới biết có đáng chuyển không.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | P1 lỡ xe trên đường đi học buổi sáng. Chuyến kế tiếp theo lịch còn khoảng 15 phút. Tuyến thay thế yêu cầu đi sang trạm khác và đổi xe một lần. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Tra chuyến kế tiếp, mở bản đồ để tìm tuyến khác, rồi tự so thời gian đi bộ, chờ và đổi xe. Cuối cùng chọn chờ vì tuyến thay thế dự kiến chỉ đến sớm hơn vài phút. |
+| Mất bao lâu, bao lần? | Khoảng **6 phút để chốt** trong một ca mô phỏng. Mốc 15 phút là thời gian chờ theo lịch tại lúc bắt đầu tra cứu. |
+| Insight / opportunity rút ra | Khi hai phương án có giờ đến gần nhau, hành khách cần thấy chênh lệch thời gian cùng số lần đổi xe để quyết định. |
+
+#### Interview P2 
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | P2 — Nhân viên văn phòng, đi một tuyến quen thuộc vào buổi sáng. |
+| Câu nói đáng nhớ nhất (lời thoại mô phỏng) | “App báo chuyến sau sắp tới, giờ đến dự kiến vẫn kịp nên tôi đứng chờ luôn.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | P2 lỡ xe trên đường đi làm. Ứng dụng hiển thị chuyến kế tiếp dự kiến đến trạm sau khoảng 5 phút và giờ đến nơi vẫn phù hợp. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Mở ứng dụng quen thuộc, kiểm tra đúng chiều và giờ đến dự kiến, rồi chọn chờ tại trạm. |
+| Mất bao lâu, bao lần? | Khoảng **2 phút để chốt** trong một ca mô phỏng. |
+| Insight / opportunity rút ra | Đây là ca phản bác giả định rằng lỡ xe luôn gây khó khăn. Khi thông tin chuyến sau rõ và vẫn kịp giờ, ứng dụng hiện tại có thể đủ để ra quyết định. |
+
+#### Interview P3
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | P3 — Người đi làm theo ca, cần đến đúng giờ giao ca. |
+| Câu nói đáng nhớ nhất (lời thoại mô phỏng) | “Tuyến kia nhìn nhanh hơn, nhưng xe còn 4 phút tới trạm mà tôi phải đi bộ 7 phút mới tới.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Sau khi lỡ xe, P3 thấy một tuyến thay thế dự kiến đến đích sớm hơn. Khi mở chỉ đường đến điểm đón, P3 phát hiện mình không thể tới trạm trước giờ xe dự kiến đến. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Kiểm tra thời gian đi bộ tới trạm, loại chuyến không kịp bắt, rồi chọn một lộ trình khác có một lần chuyển tuyến. |
+| Mất bao lâu, bao lần? | Khoảng **5 phút để chốt** trong một ca mô phỏng. P3 kiểm tra hai phương án thay thế. |
+| Insight / opportunity rút ra | Kiểm tra có kịp tới điểm đón và chuyển tuyến trước khi so sánh giờ đến đích. |
+
+**Tổng hợp**
+
+| Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
+|---|---:|---|---|
+| Phỏng vấn | 3 kịch bản | P1 và P3 minh họa hai điểm khó: tính giờ đến cho cả hành trình và phát hiện chuyến thay thế không kịp bắt. | P2 chốt trong khoảng 2 phút bằng ứng dụng quen thuộc khi giờ chuyến sau rõ và vẫn kịp đến. |
+| Research tài liệu sản phẩm | 3 công cụ | Google Maps cho biết một số điểm dừng hiển thị giờ theo lịch và một số có giờ cập nhật theo thời gian thực. Nguồn giờ ảnh hưởng đến cách đánh giá phương án sát giờ. | Các công cụ đã hỗ trợ nhiều thao tác tra tuyến, tra giờ hoặc theo dõi xe. Cần quan sát người dùng để biết bước nào vẫn gây khó khi dùng các công cụ này. |
+
+**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+
+- **Ban đầu:** Hành khách lỡ chuyến xe buýt vào giờ cao điểm khó biết chuyến tiếp theo và các lựa chọn khác.
+- **Bản thu hẹp đề xuất:** Khi vừa lỡ xe buýt vào giờ cao điểm, có giờ cần đến và phải cân nhắc nhiều cách đi, hành khách mất thời gian xác định **phương án nào còn kịp bắt và dự kiến đến đích lúc nào**, nhất là khi phải đi bộ sang trạm khác hoặc chuyển tuyến.
+- **Lý do thu hẹp:** P2 minh họa trường hợp tra một chuyến là đủ. P3 minh họa trường hợp giờ đến dự kiến chỉ có ích khi hành khách kịp tới điểm đón. Khi kiểm chứng thực tế, đo **số phút từ lúc lỡ xe đến lúc chốt phương án khả thi** và ghi riêng ca thiếu thông tin để chốt. Các mốc 6, 2 và 5 phút là số liệu mô phỏng.
+
+### 3.3. Research giải pháp đã có
+
+| Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
+|---|---|---|---|---|---|
+| Google Maps | [Tài liệu tra giờ tàu và xe buýt](https://support.google.com/maps/answer/6142130?hl=en) | Tìm đường bằng phương tiện công cộng và tra giờ khởi hành. | Cho xem các lựa chọn tuyến và giờ đi. Một số điểm dừng có thông tin cập nhật theo thời gian thực. | Tùy điểm dừng, giờ hiển thị có thể là giờ theo lịch. Cần kiểm tra nguồn giờ khi đánh giá lượt chuyển tuyến sát giờ. | Phân biệt **giờ theo lịch** và **giờ cập nhật** khi so sánh phương án. |
+| BusMap Hà Nội | [Trang ứng dụng trên Google Play](https://play.google.com/store/apps/details?hl=vi&id=com.t7.busmaphn) | Tra tuyến, tìm hành trình kết hợp xe buýt và metro, xem giờ chờ và vị trí xe. | Tập hợp nhiều thông tin phục vụ hành trình công cộng trong cùng một ứng dụng. | Cần thử tại điểm dừng và khung giờ đã chọn để biết dữ liệu có đủ và mất bao lâu để so hai phương án. | Dùng ứng dụng quen thuộc làm mốc so sánh và đo cả thời gian tra cứu lẫn thời gian chốt. |
+| VinBus trên Xanh SM | [Thông báo tính năng của VinBus](https://vinbus.vn/vi/thong-bao-ra-mat-dich-vu-vinbus-tren-ung-dung-xanh-sm) | Tra lịch, tìm trạm, chỉ đường tới trạm và theo dõi xe VinBus. | Có thể xem thông tin chuyến VinBus và đường đi tới điểm đón. | Cần kiểm tra khả năng đối chiếu với tuyến do đơn vị khác vận hành trong cùng tình huống. | So **giờ hành khách có thể tới trạm** với **giờ xe dự kiến tới trạm** trước khi đánh dấu phương án là khả thi. |
+
+---
+
+
+## 3. Kiểm chứng + research giải pháp đã có (CP4)
+
 ### 3.1. Assumption Map
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
