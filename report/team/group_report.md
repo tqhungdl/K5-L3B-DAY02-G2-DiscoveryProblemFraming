@@ -16,38 +16,38 @@
 
 ### 2.1. Pitch
 
-| # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
-|---:|---|---|---|---|---|
-| 1 | Hưng | Tóm tắt yêu cầu công việc | Người làm việc | Tự bản thân tóm tắt lâu | "Có cần thiết phải tự thân tóm tắt không nếu dùng AI tóm tắt được (Đạt) |
-| 2 | Hưng | Muốn biết cách nhân viên giải quyết yêu cầu công việc | Quản lý | Hỏi nhiều người |  |
-| 3 | Hưng | Nhầm lẫn giữa nhiều dự án, công việc khác nhau | Quản lý, người làm việc | Nhiều dự án giống nhau dễ gây nhầm lẫn | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+|   # | Người đưa ra | Candidate (Job Story ngắn)                                                                                                        | Actor                   | Bottleneck                                                                 | Câu hỏi phản biện nhận được (ai hỏi)                                                                      |
+| --: | ------------ | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+|   1 | Hưng         | Tóm tắt yêu cầu công việc                                                                                                         | Người làm việc          | Tự bản thân tóm tắt lâu                                                    | "Có cần thiết phải tự thân tóm tắt không nếu dùng AI tóm tắt được (Đạt)                                   |
+|   2 | Hưng         | Muốn biết cách nhân viên giải quyết yêu cầu công việc                                                                             | Quản lý                 | Hỏi nhiều người                                                            |                                                                                                           |
+|   3 | Hưng         | Nhầm lẫn giữa nhiều dự án, công việc khác nhau                                                                                    | Quản lý, người làm việc | Nhiều dự án giống nhau dễ gây nhầm lẫn                                     |                                                                                                           |
+|   4 | Đạt          | Khi ghi chú nhanh, tôi muốn ghi chú nhất quán và liên kết được với ghi chú liên quan, để không phải format, sửa và nối thủ công   | Người dùng cá nhân      | Chỉnh sửa khoảng 10 phút cho 500 chữ                                       | Tại sao không sử dụng sẵn các template và nhập vào (Hưng)                                                 |
+|   5 | Đạt          | Khi rà soát tiến độ bài code nhóm, tôi muốn đối chiếu phần việc đã làm với người phụ trách, để tránh hỏi lại hoặc bỏ sót đầu việc | Tôi và thành viên nhóm  | Đối chiếu repo, tin nhắn và tài liệu chia việc mất khoảng 30 phút/lượt     | Tại sao không để thành viên tự báo cáo và chỉ xem xét khi gần deadline khi số lượng thành viên nhỏ? (Hải) |
+|   6 | Đạt          | Khi theo dõi chi tiêu từ nhiều ứng dụng và hóa đơn, tôi muốn biết đầy đủ các khoản đã chi, để kiểm soát ngân sách                 | Người dùng cá nhân      | Tra soát và nhập liệu khoảng 10 phút/ngày; khoảng 30% giao dịch bị bỏ quên | Làm sao để các app có thể chia sẻ thông tin (Hưng)                                                        |
+|   7 |              |                                                                                                                                   |                         |                                                                            |                                                                                                           |
+|   8 |              |                                                                                                                                   |                         |                                                                            |                                                                                                           |
+|   9 |              |                                                                                                                                   |                         |                                                                            |                                                                                                           |
+|  10 |              |                                                                                                                                   |                         |                                                                            |                                                                                                           |
+|  11 |              |                                                                                                                                   |                         |                                                                            |                                                                                                           |
+|  12 |              |                                                                                                                                   |                         |                                                                            |                                                                                                           |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
-|---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| ------- | ------------- | ------------- |
+| A       |               |               |
+| B       |               |               |
+| C       |               |               |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME:
+├── Opportunity A:
+├── Opportunity B:
+└── Opportunity C:
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
@@ -57,10 +57,10 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| --------- | -------: | -----------: | -----------------: | -------------: | ----------: | -------------------------------------: | ---------------: | ---: |
+|           |          |              |                    |                |             |                                        |                  |      |
+|           |          |              |                    |                |             |                                        |                  |      |
+|           |          |              |                    |                |             |                                        |                  |      |
 
 **Candidate được chọn:**
 
@@ -76,16 +76,16 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 ### 3.1. Assumption Map
 
-| # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
-|---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+|   # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
+| --: | -------- | -------------------------------------------------- | ---------------: | ---------------------: | ----------------- |
+|   1 |          |                                                    |                  |                        |                   |
+|   2 |          |                                                    |                  |                        |                   |
+|   3 |          |                                                    |                  |                        |                   |
+|   4 |          |                                                    |                  |                        |                   |
+|   5 |          |                                                    |                  |                        |                   |
+|   6 |          |                                                    |                  |                        |                   |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
+_Điền 4–6 giả định; xóa dòng thừa._
 
 Giả định nhóm kiểm chứng trong buổi này:
 
@@ -95,30 +95,30 @@ Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
 
 Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
 
-| Trường | Nội dung |
-|---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Trường                                            | Nội dung |
+| ------------------------------------------------- | -------- |
+| Người được hỏi (vai trò, không ghi tên thật)      |          |
+| Câu nói đáng nhớ nhất (nguyên văn)                |          |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |          |
+| Hiện đang xử lý bằng cách nào (workaround)?       |          |
+| Mất bao lâu, bao lần?                             |          |
+| Insight / opportunity rút ra                      |          |
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
-|---|---:|---|---|
-| | | | |
+| ----- | ----------------: | ----------------- | ----------------- |
+|       |                   |                   |                   |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
 
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
-|---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| ------------------------ | ---- | ------------------------------ | --------- | --------------------- | ---------------- |
+|                          |      |                                |           |                       |                  |
+|                          |      |                                |           |                       |                  |
+|                          |      |                                |           |                       |                  |
 
 ---
 
@@ -133,12 +133,12 @@ Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
-|---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| ---: | ----- | ----- | ------ | -------------------- | ------- |
+|    1 |       |       |        |                      |         |
+|    2 |       |       |        |                      |         |
+|    3 |       |       |        |                      |         |
+|    4 |       |       |        |                      |         |
+|    5 |       |       |        |                      |         |
 
 **Bottleneck chính:**
 
@@ -152,26 +152,26 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 ### 4.3. Before / after
 
-| Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
-|---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| Chỉ số               | Trước | Sau (kỳ vọng) | Ghi chú |
+| -------------------- | ----: | ------------: | ------- |
+| Số bước              |       |               |         |
+| Tổng thời gian       |       |               |         |
+| Số bước thủ công     |       |               |         |
+| Bottleneck chính     |       |               |         |
+| Rủi ro mới phát sinh |       |               |         |
 
 ---
 
 ## 5. Problem Statement v0 (CP5)
 
-| Trường | Nội dung |
-|---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| Trường                                                                     | Nội dung |
+| -------------------------------------------------------------------------- | -------- |
+| **Actor**                                                                  |          |
+| **Quy trình**                                                              |          |
+| **Bottleneck**                                                             |          |
+| **Impact**                                                                 |          |
+| **Success Metric** (baseline → target, cách đo)                            |          |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) |          |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
@@ -189,12 +189,12 @@ Vì sao:
 
 ### 6.2. So sánh 4 mức
 
-| Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
-|---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| Mức                       | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
+| ------------------------- | -------------------------- | ---------- | ------ | ----- |
+| **No AI** (sửa quy trình) |                            |            |        |       |
+| **Rule**                  |                            |            |        |       |
+| **Workflow**              |                            |            |        |       |
+| **Agent**                 |                            |            |        |       |
 
 **Mức chọn:**
 
@@ -202,14 +202,14 @@ Vì sao:
 
 ### 6.3. AI Canvas rút gọn
 
-| Thành phần | Nội dung |
-|---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+| Thành phần                                                        | Nội dung |
+| ----------------------------------------------------------------- | -------- |
+| **Prediction** — AI dự đoán / tạo ra gì?                          |          |
+| **Judgment** — con người cân nhắc, quyết định gì?                 |          |
+| **Action** — hành động cuối cùng là gì, ai làm?                   |          |
+| **Outcome** — đo kết quả bằng gì?                                 |          |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? |          |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện?                   |          |
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
@@ -220,31 +220,31 @@ Vì sao:
 
 ## 7. Problem Statement v1 + tiêu chí đánh giá (CP6)
 
-| Trường | Nội dung |
-|---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| Trường                                          | Nội dung                        |
+| ----------------------------------------------- | ------------------------------- |
+| **Actor**                                       |                                 |
+| **Quy trình**                                   |                                 |
+| **Bottleneck**                                  |                                 |
+| **Impact**                                      |                                 |
+| **Success Metric** (baseline → target, cách đo) |                                 |
+| **Boundary**                                    |                                 |
+| **AI intervention point**                       |                                 |
+| **Mức chọn**                                    | No AI / Rule / Workflow / Agent |
+| **Rủi ro & người kiểm tra**                     |                                 |
 
 **Thay đổi so với v0 và lý do:**
 
-| Trường | v0 | v1 | Vì sao đổi |
-|---|---|---|---|
-| | | | |
+| Trường | v0  | v1  | Vì sao đổi |
+| ------ | --- | --- | ---------- |
+|        |     |     |            |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
-| # | Tiêu chí | Đạt khi | Không đạt khi |
-|---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+|   # | Tiêu chí | Đạt khi | Không đạt khi |
+| --: | -------- | ------- | ------------- |
+|   1 |          |         |               |
+|   2 |          |         |               |
+|   3 |          |         |               |
 
 ---
 
@@ -252,12 +252,12 @@ Vì sao:
 
 ### 8.1. Bốn rủi ro
 
-| Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
-|---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+| Rủi ro          | Câu hỏi                                                           | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
+| --------------- | ----------------------------------------------------------------- | ----------------------------------------------------- | ------------------ |
+| **Value**       | Người dùng có thật sự cần và sẽ dùng không?                       |                                                       |                    |
+| **Usability**   | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? |                                                       |                    |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không?                     |                                                       |                    |
+| **Viability**   | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành?     |                                                       |                    |
 
 ### 8.2. Kết luận
 
