@@ -5,7 +5,7 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: G2
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu):
 - Quyết định cuối: Go / Not Yet / No-Go
@@ -18,9 +18,9 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+| 1 | Hưng | Tóm tắt yêu cầu công việc | Người làm việc | Tự bản thân tóm tắt lâu | "Có cần thiết phải tự thân tóm tắt không nếu dùng AI tóm tắt được (Đạt) |
+| 2 | Hưng | Muốn biết cách nhân viên giải quyết yêu cầu công việc | Quản lý | Hỏi nhiều người |  |
+| 3 | Hưng | Nhầm lẫn giữa nhiều dự án, công việc khác nhau | Quản lý, người làm việc | Nhiều dự án giống nhau dễ gây nhầm lẫn | |
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
