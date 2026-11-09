@@ -95,4 +95,11 @@ Hiện tại ()
 
 - Card số: 1
 - Vì sao: Vấn đề này xảy ra với nhiều người khá là thường xuyên
-- Câu hỏi muốn nhóm phản biện: 
+- Câu hỏi muốn nhóm phản biện: Làm sao để việc tóm tắt có thể làm nhanh hơn mà không dùng AI
+
+### AI đã phản biện card #1 thế nào
+
+| Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
+|---|---|---|
+| Viết bullet point là bottleneck chính | Đồng ý | Tính riêng lẻ thời gian làm từng việc |
+

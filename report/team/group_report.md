@@ -21,9 +21,9 @@
 | 1 | Hưng | Tóm tắt yêu cầu công việc | Người làm việc | Tự bản thân tóm tắt lâu | "Có cần thiết phải tự thân tóm tắt không nếu dùng AI tóm tắt được (Đạt) |
 | 2 | Hưng | Muốn biết cách nhân viên giải quyết yêu cầu công việc | Quản lý | Hỏi nhiều người |  |
 | 3 | Hưng | Nhầm lẫn giữa nhiều dự án, công việc khác nhau | Quản lý, người làm việc | Nhiều dự án giống nhau dễ gây nhầm lẫn | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 4 | Đạt | Khi ghi chú nhanh, tôi muốn ghi chú nhất quán và liên kết được với ghi chú liên quan, để không phải format, sửa và nối thủ công | Người dùng cá nhân | Chỉnh sửa khoảng 10 phút cho 500 chữ | Tại sao không sử dụng sẵn các template và nhập vào? (Hưng) |
+| 5 | Đạt | Khi rà soát tiến độ bài code nhóm, tôi muốn đối chiếu phần việc đã làm với người phụ trách, để tránh hỏi lại hoặc bỏ sót đầu việc | Tôi và thành viên nhóm | Đối chiếu repo, tin nhắn và tài liệu chia việc mất khoảng 30 phút/lượt | Tại sao không để thành viên tự báo cáo và chỉ xem xét khi gần deadline khi số lượng thành viên nhỏ? (Hải) |
+| 6 | Đạt | Khi theo dõi chi tiêu từ nhiều ứng dụng và hóa đơn, tôi muốn biết đầy đủ các khoản đã chi, để kiểm soát ngân sách | Người dùng cá nhân | Tra soát và nhập liệu khoảng 10 phút/ngày; khoảng 30% giao dịch bị bỏ quên | Làm sao để các app có thể chia sẻ thông tin? (Hưng) |    
 | 7 | Hải | Khi gặp ùn tắc lúc đang đi bằng phương tiện cá nhân, tôi muốn so sánh đi tiếp với đổi tuyến để chọn đường phù hợp trước khi qua điểm rẽ. | Người lái xe máy hoặc ô tô cá nhân | Mất thời gian so sánh giờ đến dự kiến và kiểm tra tuyến thay thế có phù hợp với phương tiện hay không. |  |
 | 8 | Hải | Khi lỡ chuyến xe buýt vào giờ cao điểm, tôi muốn biết phải chờ bao lâu và có cách đi nào khác để chọn phương án phù hợp với giờ cần đến. | Hành khách vừa lỡ chuyến xe buýt | Phải tự tính thời gian đi bộ, chờ xe, ngồi xe và chuyển tuyến để biết phương án nào còn kịp bắt và đến đích lúc nào. |  |
 | 9 | Hải | Khi đang xếp hàng trước một nút giao ùn tắc, tôi muốn ước lượng còn bao lâu mới qua được để cập nhật giờ đến và báo trước nếu có thể trễ. | Người đi xe máy hoặc ô tô đang xếp hàng trước nút giao | Khó ước lượng thời gian còn lại vì không nhìn hết hàng xe và mỗi lượt xe tiến được một đoạn khác nhau. |  |
