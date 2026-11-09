@@ -163,13 +163,13 @@ Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 | ---: | ----- | ----- | ------ | -------------------- | ------- |
-|    1 |       |       |        |                      |         |
-|    2 |       |       |        |                      |         |
-|    3 |       |       |        |                      |         |
-|    4 |       |       |        |                      |         |
-|    5 |       |       |        |                      |         |
+|    1 | Hành khách | Thời gian và vị trí hiện tại | Xác định đã lỡ xe | 0,5 phút | Phát sinh khi lỡ chuyến |
+|    2 | Hành khách | Số tuyến, lịch trình xe | Thời gian chờ dự kiến | 1–2 phút | Có thể có dao động lớn hơn |
+|    3 | Hành khách | Điểm đến, bản đồ, tuyến xe khác | Danh sách phương án | 2–3 phút |         |
+|    4 | Hành khách | Thời gian, chi phí, tình trạng giao thông | Phương án được ưu tiên | 2–4 phút |         |
+|    5 | Hành khách | Đã chọn phương án | Bắt đầu chờ hoặc di chuyển | 0,5 phút |         |
 
-**Bottleneck chính:**
+**Bottleneck chính: Bước 4**
 
 ### 4.2. Quy trình tương lai
 
@@ -183,11 +183,11 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Chỉ số               | Trước | Sau (kỳ vọng) | Ghi chú |
 | -------------------- | ----: | ------------: | ------- |
-| Số bước              |       |               |         |
-| Tổng thời gian       |       |               |         |
-| Số bước thủ công     |       |               |         |
-| Bottleneck chính     |       |               |         |
-| Rủi ro mới phát sinh |       |               |         |
+| Số bước              |   5   |       5       | Giữ số bước nhưng giảm thao tác thủ công |
+| Tổng thời gian       | 7-10 phút | 2 phút | Tính từ bước đầu tiên đến bước cuối cùng |
+| Số bước thủ công     |   5   |       3       |         |
+| Bottleneck chính     | Tìm kiếm và tự so sánh nhiều phương án | Phụ thuộc độ chính xác, độ mới của dữ liệu |         |
+| Rủi ro mới phát sinh | Đến muộn do quyết định chậm | AI đề xuất sai, ETA thiếu chính xác, dữ liệu giao thông chậm cập nhật |         |
 
 ---
 
@@ -195,12 +195,12 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường                                                                     | Nội dung |
 | -------------------------------------------------------------------------- | -------- |
-| **Actor**                                                                  |          |
-| **Quy trình**                                                              |          |
-| **Bottleneck**                                                             |          |
-| **Impact**                                                                 |          |
-| **Success Metric** (baseline → target, cách đo)                            |          |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) |          |
+| **Actor**                                                                  | Hành khách thường xuyên sử dụng xe buýt |
+| **Quy trình**                                                              | 1. Hành khách vừa lỡ chuyến xe buýt, 2. Hành khách kiểm tra thời gian chuyến tiếp theo, 3. Hành khách tìm kiếm tuyến thay thế, 4. Hành khách so sánh thời gian và chi phí của các tuyến khác nhau|
+| **Bottleneck**                                                             | Bước 3-4, mất khoảng 7-10 phút |
+| **Impact**                                                                 | Thời gian đưa ra quyết định có thể làm hành khách lỡ chuyến tối ưu tiếp theo |
+| **Success Metric** (baseline → target, cách đo)                            | Giảm tổng thời gian từ lúc phát hiện lỡ xe buýt xuống còn 2 phút |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI tổng hợp, so sánh và đề nghị thông tin các tuyến xe buýt, khi dữ liệu thiếu thì cần thông báo cho người dùng để họ tự quyết định |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
