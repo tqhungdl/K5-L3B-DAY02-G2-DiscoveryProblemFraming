@@ -6,7 +6,7 @@
 
 - Tên nhóm: G2
 - Candidate problem nhóm chọn (1 câu): Khi lỡ chuyến xe buýt vào giờ cao điểm, tôi muốn biết phải chờ bao lâu và có cách đi nào khác để chọn phương án phù hợp với giờ cần đến.
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Quyết định cuối (Go / Not Yet / No-Go): Not Yet
 
 ## Thành viên
 
@@ -55,7 +55,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 -
 
-### HoVaTen-MSSV
+### Nguyễn Tiến Đạt-2A202603752
 
 **Phần việc phụ trách:**
 
@@ -70,8 +70,16 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+Pitch và cluster:
+
+- https://github.com/VinUni-AI20k/K5-L3-Day02-DiscoveryProblemFraming/commit/b844c02ee75e28edf256de74471e07c534c9748b
+- https://github.com/VinUni-AI20k/K5-L3-Day02-DiscoveryProblemFraming/commit/c307ee71094f1ae1a6ae5fff1b9d736ce065bf12
+
+CP6: https://github.com/VinUni-AI20k/K5-L3-Day02-DiscoveryProblemFraming/commit/e5bf05f3869feae69b14f1bb309892ad4f2cd004
+
+Hạn chế và hướng tiếp theo: https://github.com/VinUni-AI20k/K5-L3-Day02-DiscoveryProblemFraming/commit/7a0671b9089f2c64e93a567e8db0ece6097e0f11
 
 **Điều mình học được từ phần nhóm:**
 
+Cách để phân chia công việc, phối hợp và thảo luận một cách hiệu quả. Cách xử lý khi đồng đội hay bản thân bị chậm so với tiến độ.
 -

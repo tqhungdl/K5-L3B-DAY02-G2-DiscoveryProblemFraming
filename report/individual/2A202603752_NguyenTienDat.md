@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — 2A202603752_Nguyễn Tiến Đạt
+# Báo cáo cá nhân — 2A202603752_NguyenTienDat
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -126,31 +126,31 @@ Quy trình nháp hiện tại:
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động                  | Tôi đã làm gì?         | Kết quả / ảnh hưởng tới bài nhóm |
-| -------------------------- | ---------------------- | -------------------------------- |
-| Pitch Problem Card         |                        |                                  |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:    |                                  |
-| Nhận phản biện             | Câu hỏi tôi nhận được: | Tôi đã sửa gì:                   |
-| Gom cluster / cây OST      |                        |                                  |
-| Chọn candidate problem     |                        |                                  |
-| Kiểm chứng / research      |                        |                                  |
-| Quy trình nhóm             |                        |                                  |
-| Problem Statement          |                        |                                  |
-| Mức can thiệp AI           |                        |                                  |
-| Quyết định                 |                        |                                  |
+| Hoạt động                  | Tôi đã làm gì?                                                                                                                                                                                                                         | Kết quả / ảnh hưởng tới bài nhóm                                                                       |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Pitch Problem Card         | Đưa ra 3 candidates mà toi tâm đắc nhất.                                                                                                                                                                                               | Không được chọn                                                                                        |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: 1. Tại sao phải dùng đến một công cụ ngoài trong khi chatbot có thể làm quá tốt? 2. Tại sao không dùng đến Google Maps hay BusMap cùng lấy từ cùng cơ sở dữ liệu hành trình? Phía sau chủ yếu là brainstorm chủ đề | Loại bỏ các candidates chưa đủ đau để xây dựng từ sớm                                                  |
+| Nhận phản biện             | Câu hỏi tôi nhận được: Tại sao lại không tạo sẵn template rồi nhập mà phải dùng AI format lại?                                                                                                                                         | Tôi đã sửa gì: Không sửa, AI phục vụ cho người cần ghi chép nhanh, không thích hợp nhập theo template. |
+| Gom cluster / cây OST      | Gom cluster                                                                                                                                                                                                                            | Hoàn thành phần cluster.                                                                               |
+| Chọn candidate problem     | Phản biện và bảo vệ đề tài.                                                                                                                                                                                                            | Chọn đề tài khác.                                                                                      |
+| Kiểm chứng / research      |                                                                                                                                                                                                                                        |                                                                                                        |
+| Quy trình nhóm             | Tham gia trực tiếp thảo luận, xây dựng kế hoạch thực hiện trên lớp học.                                                                                                                                                                | Bị chậm chút so với tiến độ, vẫn followup và commit khi về nhà.                                        |
+| Problem Statement          | Viết problem statement (CP6)                                                                                                                                                                                                           | Hoàn thiện problem statement cho CP6.                                                                  |
+| Mức can thiệp AI           | Đánh giá và chốt mức can thiệp AI.                                                                                                                                                                                                     | Hoàn thiện để đưa ra thảo luận                                                                         |
+| Quyết định                 | Thảo luận và quyết định phương án Not Yet                                                                                                                                                                                              | Chịu trách nhiệm trực tiếp đến hướng đi sản phẩm.                                                      |
 
 ---
 
 ## 5. Dùng AI
 
-| Checkpoint                     | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
-| ------------------------------ | ---------------------- | ----------------- | -------------------------- | ----------------------------------- |
-| CP1 Scan                       |                        |                   |                            |                                     |
-| CP2 Problem Card               |                        |                   |                            |                                     |
-| CP4 Research                   |                        |                   |                            |                                     |
-| CP5 Quy trình                  |                        |                   |                            |                                     |
-| CP5–6 Problem Statement        |                        |                   |                            |                                     |
-| CP6 Mức can thiệp / quyết định |                        |                   |                            |                                     |
+| Checkpoint                     | Tôi dùng AI để làm gì?                               | AI hữu ích ở đâu?                                        | AI sai hoặc hời hợt ở đâu?                                      | Tôi sửa gì bằng nhận định của mình?                   |
+| ------------------------------ | ---------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------- |
+| CP1 Scan                       | Hỏi thêm góc nhìn sau khi tự liệt kê vấn đề.         | Gợi ý nhìn theo thời gian và tần suất.                   | Gợi ý chung chung, dễ lẫn giải pháp vào vấn đề.                 | Chỉ giữ vấn đề từng gặp, bỏ số liệu không có căn cứ.  |
+| CP2 Problem Card               | Nhờ AI đóng vai PM phản biện các card.               | Đặt câu hỏi về bottleneck, metric và phương án không AI. | Đề xuất phạm vi rộng, chưa sát trải nghiệm cá nhân.             | Thu hẹp phạm vi, làm rõ bước nghẽn và cách đo.        |
+| CP4 Research                   |                                                      |                                                          |                                                                 |                                                       |
+| CP5 Quy trình                  |                                                      |                                                          |                                                                 |                                                       |
+| CP5–6 Problem Statement        | Nhờ AI đối chiếu v0–v1 và góp ý báo cáo.             | Phát hiện thời gian chưa nhất quán, thiếu baseline.      | Có lúc chưa đọc kỹ bản hiện tại đã đề xuất.                     | Yêu cầu đọc lại toàn bài, bám mẫu và viết ngắn.       |
+| CP6 Mức can thiệp / quyết định | Nhờ AI giải thích CP6, so sánh các mức và rà rủi ro. | Làm rõ hướng Rule và điều kiện dữ liệu cần có.           | Ban đầu giải thích dài, chưa tận dụng hướng dẫn riêng cho Rule. | Đưa lại hướng dẫn, giữ Rule; chatbot chỉ là giả định. |
 
 ---
 
@@ -160,17 +160,21 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Tôi nhận thấy có nhiều problems nghe chừng có vẻ đơn giản và có thể được giải quyết rất nhanh bằng một vài công cụ, nhưng nếu mổ xẻ thì bài toán bên trong phức tạp hơn rất nhiều.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Có. Nhóm đã suy nghĩ đến việc dùng AI cho problem chính của nhóm. Nhưng nhóm nhận ra việc xây dựng một mô hình là điều không cần thiết, thuật toán có thể sẽ hiệu quả hơn. Dù vậy nhóm vẫn khảo sát lại quanh LLM cho đến khi nhận ra AI không cần thiết cho dự án này và cũng không bắt buộc cho bài học này. Nhóm tập trung phân tích sản phẩm trên từng usecase và hoàn thiện báo cáo.
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+Không.
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+Không bất ngờ, hầu như đó là các vấn đề mà mọi người đều gặp phải. Bản thân tôi cũng đã từng gặp những hoàn cảnh tương tự.
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-
+Tôi cảm thấy điều khó nhất khi viết Problem Statement là thiết kế Success Metrics. Trong lab này, nhóm đã không thể hình dung ra một baseline, từ đó bắt buộc phải giả định thí nghiệm đo lường cho Success Metrics.
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
+Nếu làm lại, tôi sẽ thực hiện phỏng vấn với nhiều đối tượng hơn. Nguyên do quanh lớp học đều là những người trường thành đã tốt nghiệp đại học, không có sự lạ lẫm nhiều đối với xe bus. Nếu có điều kiện, tôi sẽ quan sát và phỏng vấn đối với các tân sinh viên.
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi _problem → quy trình → metric → boundary → mức can thiệp AI → quyết định_ của bài nhóm mình.
+Hành khách vừa lỡ xe buýt giờ cao điểm, mất thời gian chọn chờ chuyến sau hay đổi lộ trình để kịp giờ đến. Quy trình: tra các hành trình, kiểm tra khả năng bắt kịp, so sánh giờ đến và chi phí rồi chốt cách đi .Kiểm tra hiệu quả bằng cách quan sát khách ra quyết định dưới 2 phút, chọn đúng các ràng buộc đã nhập và nhanh hơn ứng dụng checklist; baseline thực đo hiện chưa có -> Boundary: chỉ xử lý hành trình có dữ liệu, cảnh báo khi thiếu thông tin, không cam kết đến đúng giờ và khách quyết định cuối cùng .Nhóm chọn Rule vì việc tính thời gian và lọc phương án có thể dùng điều kiện cố định, chưa cần AI. Quyết định đề xuất là Not Yet vì nhu cầu thực tế và khả năng lấy dữ liệu còn cần kiểm chứng trước khi triển khai.
 
 ---
 
