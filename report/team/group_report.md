@@ -35,9 +35,9 @@
 
 | Cluster | Các candidate | Pattern chung |
 | ------- | ------------- | ------------- |
-| A       |               |               |
-| B       |               |               |
-| C       |               |               |
+| A — Công việc | #1, #2, #3, #5 | Tổng hợp và theo dõi công việc từ nhiều nguồn. |
+| B — Thông tin cá nhân | #4, #6 | Ghi nhận và tổng hợp dữ liệu cá nhân. |
+| C — Di chuyển | #7, #8, #9 | So sánh và cập nhật phương án di chuyển. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
