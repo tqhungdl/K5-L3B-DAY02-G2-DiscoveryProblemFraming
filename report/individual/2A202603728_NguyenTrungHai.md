@@ -6,7 +6,7 @@
 
 - Họ tên: Nguyễn Trung Hải
 - MSSV: 2A202603728
-- Tên nhóm: [Điền tên nhóm]
+- Tên nhóm: G2
 - Link repo nhóm: [Điền URL repo nhóm]
 
 ---
@@ -137,3 +137,75 @@ Tổng thời lượng ước lượng: 6 phút, có thể diễn ra đồng th�
 | Card 1 — Tuyến vòng có thể hiện nhanh hơn nhưng điểm rẽ đã qua, sai chiều hoặc không phù hợp với xe. | Có | Thêm bước kiểm tra điểm rẽ, chiều lưu thông và loại phương tiện trước khi so thời gian. Chỉ áp dụng ngưỡng 5 phút với tuyến khả thi. |
 | Card 2 — Xe đến trạm sớm chưa chắc đưa hành khách đến đích sớm. Người đi có thể không tới điểm đón kịp hoặc phải chờ lâu khi chuyển tuyến. | Có | Đổi tiêu chí so sánh sang giờ đến đích, kiểm tra khả năng bắt chuyến và tách thời gian chuyển tuyến. Ghi rõ nguồn giờ đón là lịch công bố hay thông tin cập nhật. |
 | Card 3 — Chưa rõ “qua Ngã Tư Sở” là qua vị trí nào và sai số được tính từ mốc thời gian nào. | Có | Xác định mốc kết thúc theo hướng di chuyển. Tính sai số từ lúc có dự báo đầu tiên và đo riêng thời gian tạo dự báo. |
+
+---
+
+## 4. Tôi đã tham gia phần nào (CP3 → CP7)
+
+| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
+|---|---|---|
+| Pitch Problem Card | Tôi chuẩn bị ba card về đổi tuyến khi ùn tắc, chọn cách đi tiếp sau khi lỡ xe buýt và ước lượng thời gian qua nút giao. Tôi ưu tiên Card 2 để pitch. | Nhóm G2 chọn vấn đề từ Card 2 để tiếp tục. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: [Điền câu hỏi thực tế và người bạn hỏi.] | [Ghi câu trả lời hoặc thay đổi sau trao đổi, nếu có.] |
+| Nhận phản biện | Câu hỏi tôi nhận được: [Điền câu hỏi thực tế và người hỏi.] | Tôi đã sửa gì: [Ghi nội dung đã sửa sau phản biện của nhóm, nếu có.] |
+| Gom cluster / cây OST | [Ghi cụm hoặc nhánh bạn thực sự góp ý, nếu có.] | [Ghi ý nào được nhóm đưa vào cây.] |
+| Chọn candidate problem | Tôi đề xuất Card 2. Khi chuẩn bị bảng pitch, tôi đề nghị mô tả vấn đề chung cho hành khách lỡ xe buýt giờ cao điểm. | G2 chọn bài toán lỡ xe buýt. E01 là một ca cụ thể có thể dùng để kiểm tra. |
+| Kiểm chứng / research | **Tôi phụ trách CP4.** Tôi chuẩn bị Assumption Map, khung Interview Snapshot và bảng đối chiếu Google Maps, BusMap Hà Nội và VinBus trên Xanh SM. Bản nháp dùng ba kịch bản mô phỏng để minh họa. | Tôi đề xuất tập trung vào hai câu hỏi: phương án nào còn kịp bắt và dự kiến đến đích lúc nào. Số phút trong các ca mô phỏng dùng để minh họa cách ghi. Baseline cần đo từ người dùng thật. |
+| Quy trình nhóm | Đầu vào tôi chuẩn bị ở CP4 là các bước cần kiểm tra: tra chuyến tiếp theo, tìm phương án khác, kiểm tra có kịp bắt và so giờ đến. | [Ghi bước hoặc điểm nghẽn nhóm đưa vào sơ đồ CP5, nếu đã xác nhận.] |
+| Problem Statement | Từ bản nháp CP4, tôi đề xuất tập trung vào người có giờ cần đến và thực sự phải cân nhắc nhiều cách đi. | [Đối chiếu và ghi phần đề xuất đã được dùng trong Problem Statement của nhóm.] |
+| Mức can thiệp AI | Phần research tôi phụ trách dùng các ứng dụng hiện có để làm mốc so sánh cho CP6. | Bản nháp đề xuất thử Rule để kiểm tra bắt chuyến và so giờ đến. [Ghi mức nhóm thực sự chọn.] |
+| Quyết định | Phần tôi đóng góp cho việc ra quyết định là đối chiếu những bước các ứng dụng hiện có đã hỗ trợ và những điểm còn cần kiểm tra. | [Điền quyết định Go / Not Yet / No-Go mà nhóm đã thống nhất và lý do.] |
+
+---
+
+## 5. Dùng AI
+
+| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
+|---|---|---|---|---|
+| CP1 Scan | Chuẩn hóa năm tình huống đã ghi nhận thành Job Story. | Tách tình huống, nhu cầu và dấu hiệu quan sát. | Một mốc thời gian dễ bị hiểu thành số đo cho cả quy trình nếu thiếu bối cảnh. | Giữ ghi chú cần xác minh mốc 15 phút của ca lỡ E01 trước khi dùng. |
+| CP2 Problem Card | Triển khai ba card và phản biện giả định trong từng card. | Chỉ ra rằng cần kiểm tra có kịp đến điểm đón và tính thời gian chuyển tuyến. | Bản nháp ban đầu ưu tiên Card 1. Thời lượng của các bước mới ở mức ước lượng. | Tôi chọn Card 2 để pitch. Các số phút được ghi là ước lượng của quy trình nháp. |
+| CP4 Research | Nhờ AI hỗ trợ lập Assumption Map, soạn ba kịch bản phỏng vấn mô phỏng và tổng hợp tài liệu sản phẩm. | Giúp so sánh ba công cụ theo từng bước và minh họa ca phản bác, khi người dùng chốt nhanh bằng app quen thuộc. | Mô phỏng chưa cho biết người dùng thật hành động thế nào. Tài liệu tính năng chưa cho biết dữ liệu có đủ tại từng điểm dừng. | Tôi dùng mô phỏng để minh họa cách ghi, tách riêng khỏi tài liệu công khai và phân biệt thời gian chờ xe với thời gian ra quyết định. |
+| CP5 Quy trình | Tham khảo bản nháp quy trình trước/sau do AI hỗ trợ soạn cho nhóm. | Giúp chỉ rõ đầu vào, đầu ra và bước kiểm tra khả năng bắt chuyến. | Thời lượng trong bản nháp vẫn cần đo lại, kể cả thời gian tra và nhập dữ liệu. | [Ghi thay đổi của bạn nếu có góp ý trực tiếp cho CP5.] |
+| CP5–6 Problem Statement | Tham khảo bản nháp v0 và v1 khi nối CP4 với các bước sau. | Giúp tách đối tượng, bottleneck, chỉ số và phạm vi thử nghiệm. | Bản nháp ban đầu đóng khung vào tuyến E01. | Tôi đề nghị bỏ tên tuyến khỏi phát biểu chung trong bảng pitch. E01 có thể dùng làm ca kiểm tra. |
+| CP6 Mức can thiệp / quyết định | Tham khảo so sánh No AI, Rule, Workflow và Agent trong bản nháp nhóm. | Giúp dùng ứng dụng quen thuộc làm mốc đối chiếu với phương án Rule. | Ngưỡng và mức can thiệp trong bản nháp là đề xuất, cần đối chiếu với dữ liệu và quyết định của nhóm. | [Ghi nhận định hoặc chỉnh sửa cá nhân nếu có tham gia CP6.] |
+
+---
+
+## 6. Reflection (CP7)
+
+Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+<!-- Tự chọn một card bạn thực sự đã nghe và nêu điều bạn học được. -->
+
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+<!-- Tự kể một diễn biến thật trong nhóm và cách nhóm xử lý. -->
+
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+<!-- Ghi câu hỏi bạn thực sự nhận được, ý kiến ban đầu và điều thay đổi. -->
+
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+<!-- Chọn một điều bạn thực sự thấy khi phụ trách CP4. Ghi rõ đó là tài liệu công khai, kiểm chứng thật hay ca mô phỏng. -->
+
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+<!-- Tự nêu một điểm bạn thấy khó và cách bạn đã xử lý hoặc góp ý. -->
+
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+<!-- Tự nêu một hành động và một câu hỏi cụ thể. -->
+
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+---
+
+## 7. Tài liệu tham khảo
+
+- [Worksheet Day 02](../../docs/01-worksheet.md)
+- [Báo cáo nhóm G2](../team/group_report.md)
+- [Google Maps Help — Tra giờ tàu và xe buýt](https://support.google.com/maps/answer/6142130?hl=en)
+- [BusMap Hà Nội — Trang ứng dụng trên Google Play](https://play.google.com/store/apps/details?hl=vi&id=com.t7.busmaphn)
+- [VinBus — Tính năng VinBus trên ứng dụng Xanh SM](https://vinbus.vn/vi/thong-bao-ra-mat-dich-vu-vinbus-tren-ung-dung-xanh-sm)
