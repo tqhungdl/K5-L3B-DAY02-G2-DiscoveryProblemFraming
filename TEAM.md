@@ -69,13 +69,17 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
+Quy trình trước và sau:
+
+- https://github.com/tqhungdl/K5-L3B-DAY02-G2-DiscoveryProblemFraming/commit/730b4fc3703bbc85a1b0a7f94351f4354edfb476
+
 Check point 5:
 
 - https://github.com/tqhungdl/K5-L3B-DAY02-G2-DiscoveryProblemFraming/commit/72a7b0313334bc59ee2da1c076c675eb574ef283
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Cách phân chia công việc cho các thành viên trong nhóm để đảm bảo hoàn thiện công việc
 
 ### Nguyễn Tiến Đạt-2A202603752
 

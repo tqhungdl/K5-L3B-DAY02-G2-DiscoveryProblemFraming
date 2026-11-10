@@ -103,3 +103,59 @@ Hiện tại ()
 |---|---|---|
 | Viết bullet point là bottleneck chính | Đồng ý | Tính riêng lẻ thời gian làm từng việc |
 
+## 4. Tôi đã tham gia phần nào (CP3 → CP7)
+
+| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
+|---|---|---|
+| Pitch Problem Card | Pitch Problem Card #1, #2 và #3 | Không được nhận |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Việc ghi chú có thể áp dụng sẵn template mà không cần dùng đến AI, thì tại sao vẫn cần phải dùng AI | Giúp đóng góp cho ý tưởng của bạn |
+| Nhận phản biện | Câu hỏi tôi nhận được: Tại sao phải dùng đến một công cụ ngoài trong khi chatbot có thể làm quá tốt? | Tôi đã sửa gì: Thay đổi nhận xét giải pháp thành workflow |
+| Gom cluster / cây OST | Cây OST | |
+| Chọn candidate problem | Hỗ trợ team quyết định chọn thông qua đánh giá điểm shortlist | |
+| Kiểm chứng / research | Hoàn thiện phần kiểm chứng | |
+| Problem Statement | Viết problem statement v0 | |
+| Mức can thiệp AI | Đánh giá và chốt mức can thiệp | |
+| Quyết định | Thảo luận quyết định phương án Not Yet | |
+
+---
+
+## 5. Dùng AI
+
+| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
+|---|---|---|---|---|
+| CP1 Scan | Hỏi thêm góc nhìn từ AI sau khi tự liệt kê vấn đề | AI giúp cho thêm một góc nhìn | Những ý tưởng AI đưa ra còn nông cạn | Yêu cầu AI đưa những vấn đề thực tiễn và sâu rộng hơn |
+| CP2 Problem Card | Nhờ AI đóng vai PM hoài nghi để phản biện các card | Đánh giá giải pháp và phản biện chi tiết | Những đề xuất AI đưa ra còn quá rộng | |
+
+---
+
+## 6. Reflection (CP7)
+
+Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?** 
+Có rất nhiều problem được đưa ra trên bề nổi nghe rất hay và có thể đào sâu hơn, nhưng trên thực chất chỉ cần sử dụng 1 hoặc 2 công cụ mới để giải quyết vấn đề
+
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có, khi nhóm pitch vấn đề Ghi chú và Tóm tắt yêu cầu công việc, những vấn đề này nhóm đã cho rằng việc đưa mô hình AI vào để xử lý sẽ giải quyết vấn đề, tuy nhiên ý hiểu này các thành viên đã nhận ra có vấn đề và đã chọn một vấn đề khác thật sự cần giải quyết.
+
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Có, tôi pitch vấn đề dùng AI tóm tắt yêu cầu công việc và đã nhận lời phản biện "không thật sự cần xây dựng một model mới cho một vấn đề mà model AI hiện có đã có thể giải quyết được dễ dàng". Tôi đã ngẫm lại và thấy phản biện này hợp lý, đồng thời tôi nhận ra vấn đề này thực chất không có ảnh hưởng quá lớn đến actor.
+
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Việc research khiến tôi nhận ra những vấn đề tôi đưa ra không phải là vấn đề lớn cấp bách cần xử lý trong môi trường làm việc, mà chỉ là những việc cần làm để hoàn thiện công việc.
+
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Điều khó nhất khi viết problem statement là những problem tôi đã đưa ra có tính phức tạp chưa đủ cao, làm quá trình viết problem statement bị lặp đi lặp lại, dẫn đến problem statement không được đa dạng.
+
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại tôi sẽ thay đổi chủ đề những vấn đề tôi đề ra, để những vấn đề thực tiễn hơn, phức tạp hơn, và đề xuất được những vấn đề thật sự cần giải quyết. Tôi muốn phản biện nhóm mạnh hơn về mặt những công cụ khác đã tồn tại để giải quyết vấn đề.
+
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Problem: Hành khách xe buýt vừa lỡ chuyến xe buýt và cần một tuyến đường khác để tiết kiệm thời gian. Quy trình: Hành khách xe buýt lỡ chuyến xe -> AI xem thời gian, vị trí hành khách và phân tích các tuyến đường -> AI tổng hợp thông tin so sánh và đưa cho hành khách -> Hành khách so sánh thời gian giữa mỗi tuyến đường AI cho -> Hành khách chọn chuyến đi mới. Metric: Cải thiện thời gian tìm kiếm, tra cứu và so sánh các tuyến xe khác nhau. Boundary: AI tổng hợp và tìm kiếm thông tin các tuyến xe buýt. Mức can thiệp AI: nếu AI không tìm được tuyến đường cho hành khách thì phải thông báo cho hành khách để họ xoay sở. Quyết định: Not yet vì còn cần phải thu thập dữ liệu thực tế trước khi đưa ra quyết định.
+
+---
+
+## 7. Tài liệu tham khảo
+
+-
