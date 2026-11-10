@@ -44,29 +44,35 @@
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME:
-├── Opportunity A:
-├── Opportunity B:
-└── Opportunity C:
+OUTCOME: Giảm thời gian chọn phương án đi tiếp sau khi lỡ xe buýt giờ cao điểm, vẫn bảo đảm phương án bắt kịp và phù hợp giờ cần đến.
+├── Opportunity A: Khó xác định chờ chuyến kế tiếp có còn kịp giờ đến đích hay không.
+├── Opportunity B: Phải tự cộng thời gian đi bộ, chờ xe, ngồi xe và chuyển tuyến để so sánh giờ đến đích.
+└── Opportunity C: Khó biết có tới điểm đón và chuyển tuyến kịp hay không.
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- “AI hỗ trợ xây dựng dữ liệu hành trình” — solution, không phải nhu cầu của hành khách.
+- “Thuật toán lọc chuyến và xếp hạng lộ trình” — solution, không phải pain.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
-| Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
-| --------- | -------: | -----------: | -----------------: | -------------: | ----------: | -------------------------------------: | ---------------: | ---: |
-|           |          |              |                    |                |             |                                        |                  |      |
-|           |          |              |                    |                |             |                                        |                  |      |
-|           |          |              |                    |                |             |                                        |                  |      |
+Điểm đề xuất dựa trên các Problem Card hiện có, chưa phải biên bản chấm điểm của nhóm. Shortlist gồm card muốn pitch nhất của mỗi thành viên; bằng chứng chỉ tính ghi nhận cá nhân, không tính các kịch bản mô phỏng ở CP4.
 
-**Candidate được chọn:**
+| Candidate                                    | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
+| -------------------------------------------- | -------: | -----------: | -----------------: | -------------: | ----------: | -------------------------------------: | ---------------: | ---: |
+| #1 — Tóm tắt yêu cầu công việc (Hưng)        |        4 |            4 |                  3 |              4 |           5 |                                      4 |                4 |   28 |
+| #4 — Chỉnh sửa và liên kết ghi chú (Đạt)     |        4 |            4 |                  3 |              4 |           4 |                                      4 |                4 |   27 |
+| #8 — Chọn phương án sau khi lỡ xe buýt (Hải) |        5 |            5 |                  2 |              4 |           3 |                                      4 |                4 |   27 |
 
-**Vì sao chọn:**
+**Candidate được chọn:** #8 — Khi lỡ chuyến xe buýt vào giờ cao điểm, tôi muốn biết phải chờ bao lâu và có cách đi nào khác để chọn phương án phù hợp với giờ cần đến.
+
+**Vì sao chọn:** Candidate #8 có actor, bối cảnh và quyết định cần đưa ra cụ thể; quy trình tách được bước tra cứu, kiểm tra bắt kịp và so sánh giờ đến. Có thể đo thời gian chốt cùng tính khả thi của phương án, rồi đối chiếu ứng dụng có sẵn, checklist và Rule trước khi xét mức cao hơn. Điểm bằng chứng chỉ là 2 vì mới có một ghi nhận lỡ E01, mốc 15 phút chưa rõ ý nghĩa; điểm vừa sức lab là 3 vì dữ liệu giờ xe và chuyển tuyến còn cần kiểm tra. Dù không cao điểm nhất, candidate này được chọn để đào sâu một tình huống quyết định cụ thể; việc chọn không đồng nghĩa đã đủ cơ sở xây giải pháp.
 
 **Vì sao loại các candidate còn lại:**
+
+- **#1 — Tóm tắt yêu cầu công việc:** Có ghi nhận mất thời gian và dễ khảo sát trong lab nên đạt 28 điểm. Tuy nhiên, actor còn rộng, thời gian trong card và quy trình nháp chưa nhất quán; phản biện ở mục 2.1 cũng đặt vấn đề liệu chatbot có sẵn đã đủ. Chưa làm rõ phần khó còn lại so với template task hoặc cách tóm tắt hiện có nên không ưu tiên đào sâu ở vòng này.
+- **#4 — Chỉnh sửa và liên kết ghi chú:** Có ghi nhận khoảng 10 phút cho 500 chữ, nhưng đang gộp chỉnh sửa định dạng và tìm liên kết thành một bottleneck. Chưa tách được phần template có thể giải quyết và chưa có tiêu chí rõ để đánh giá liên kết đúng, đủ; vì vậy khó đánh giá hiệu quả ngoài thời gian tiết kiệm trong phạm vi lab.
 
 **Xử lý bất đồng (nếu có):**
 
